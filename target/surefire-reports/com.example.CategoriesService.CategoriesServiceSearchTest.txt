@@ -1,0 +1,40 @@
+-------------------------------------------------------------------------------
+Test set: com.example.CategoriesService.CategoriesServiceSearchTest
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 0.229 s <<< FAILURE! -- in com.example.CategoriesService.CategoriesServiceSearchTest
+com.example.CategoriesService.CategoriesServiceSearchTest.testSearchWithExistingSeo -- Time elapsed: 0.010 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: Có danh mục với SEO 'sach-van-hoc' trong danh sách ==> expected: <false> but was: <true>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertFalse.failNotFalse(AssertFalse.java:63)
+	at org.junit.jupiter.api.AssertFalse.assertFalse(AssertFalse.java:36)
+	at org.junit.jupiter.api.Assertions.assertFalse(Assertions.java:239)
+	at com.example.CategoriesService.CategoriesServiceSearchTest.testSearchWithExistingSeo(CategoriesServiceSearchTest.java:33)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+
+com.example.CategoriesService.CategoriesServiceSearchTest.testSearchById -- Time elapsed: 0.009 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: Phải có kết quả với ID tồn tại ==> expected: <false> but was: <true>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertFalse.failNotFalse(AssertFalse.java:63)
+	at org.junit.jupiter.api.AssertFalse.assertFalse(AssertFalse.java:36)
+	at org.junit.jupiter.api.Assertions.assertFalse(Assertions.java:239)
+	at com.example.CategoriesService.CategoriesServiceSearchTest.testSearchById(CategoriesServiceSearchTest.java:61)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+
+com.example.CategoriesService.CategoriesServiceSearchTest.testSearchWithIdAndSeo -- Time elapsed: 0.009 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: Phải có kết quả khi truyền cả id và seo hợp lệ ==> expected: <false> but was: <true>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertFalse.failNotFalse(AssertFalse.java:63)
+	at org.junit.jupiter.api.AssertFalse.assertFalse(AssertFalse.java:36)
+	at org.junit.jupiter.api.Assertions.assertFalse(Assertions.java:239)
+	at com.example.CategoriesService.CategoriesServiceSearchTest.testSearchWithIdAndSeo(CategoriesServiceSearchTest.java:100)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+

@@ -15,5 +15,9 @@ public class PagerData<E extends BaseEntity> {
 	private int currentPage;
 	
 	private int limit, start, end;
+	public List<E> getData() {
+		return data;
+	}
 
 }
+

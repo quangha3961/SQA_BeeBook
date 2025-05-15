@@ -32,42 +32,42 @@ public class SubcribeService extends BaseService<Subcribe> {
 		return executeByNativeSQL(sql, searchModel == null ? 0 : searchModel.getPage());
 	}
 
-	@Transactional
-	public void delete(Subcribe subscribe) {
-		delete(subscribe);
-	}
-
-	private void sendmail() throws AddressException, MessagingException, IOException {
-		Properties props = new Properties();
-		props.put("mail.smtp.auth", "true");
-		props.put("mail.smtp.starttls.enable", "true");
-		props.put("mail.smtp.host", "smtp.gmail.com");
-		props.put("mail.smtp.port", "587");
-
-		Session session = Session.getInstance(props, new javax.mail.Authenticator() {
-			protected PasswordAuthentication getPasswordAuthentication() {
-				return new PasswordAuthentication("tutorialspoint@gmail.com", "<your password>");
-			}
-		});
-		Subcribe subcribe = new Subcribe();
-		Message msg = new MimeMessage(session);
-		msg.setFrom(new InternetAddress(subcribe.getEmail(), false));
-
-		msg.setRecipients(Message.RecipientType.TO, InternetAddress.parse(subcribe.getEmail()));
-		msg.setSubject("Subject: Đăng ký thành công");
-		msg.setContent("Chào bạn " + subcribe.getEmail() + ",<br/>Cảm ơn bạn đã đăng ký!", "text/html");
-		msg.setSentDate(new Date());
-
-		MimeBodyPart messageBodyPart = new MimeBodyPart();
-		messageBodyPart.setContent("Tutorials point email", "text/html");
-
-		Multipart multipart = new MimeMultipart();
-		multipart.addBodyPart(messageBodyPart);
-		MimeBodyPart attachPart = new MimeBodyPart();
-
-		attachPart.attachFile("/var/tmp/image19.png");
-		multipart.addBodyPart(attachPart);
-		msg.setContent(multipart);
-		Transport.send(msg);
-	}
+//	@Transactional
+//	public void delete(Subcribe subscribe) {
+//		delete(subscribe);
+//	}
+//
+//	private void sendmail() throws AddressException, MessagingException, IOException {
+//		Properties props = new Properties();
+//		props.put("mail.smtp.auth", "true");
+//		props.put("mail.smtp.starttls.enable", "true");
+//		props.put("mail.smtp.host", "smtp.gmail.com");
+//		props.put("mail.smtp.port", "587");
+//
+//		Session session = Session.getInstance(props, new javax.mail.Authenticator() {
+//			protected PasswordAuthentication getPasswordAuthentication() {
+//				return new PasswordAuthentication("tutorialspoint@gmail.com", "<your password>");
+//			}
+//		});
+//		Subcribe subcribe = new Subcribe();
+//		Message msg = new MimeMessage(session);
+//		msg.setFrom(new InternetAddress(subcribe.getEmail(), false));
+//
+//		msg.setRecipients(Message.RecipientType.TO, InternetAddress.parse(subcribe.getEmail()));
+//		msg.setSubject("Subject: Đăng ký thành công");
+//		msg.setContent("Chào bạn " + subcribe.getEmail() + ",<br/>Cảm ơn bạn đã đăng ký!", "text/html");
+//		msg.setSentDate(new Date());
+//
+//		MimeBodyPart messageBodyPart = new MimeBodyPart();
+//		messageBodyPart.setContent("Tutorials point email", "text/html");
+//
+//		Multipart multipart = new MimeMultipart();
+//		multipart.addBodyPart(messageBodyPart);
+//		MimeBodyPart attachPart = new MimeBodyPart();
+//
+//		attachPart.attachFile("/var/tmp/image19.png");
+//		multipart.addBodyPart(attachPart);
+//		msg.setContent(multipart);
+//		Transport.send(msg);
+//	}
 }

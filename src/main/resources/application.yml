@@ -3,9 +3,9 @@ server:
 spring:
     datasource:
         driver-class-name: com.mysql.cj.jdbc.Driver
-        password: 1234567890
         url: jdbc:mysql://localhost:3306/beebook
         username: root
+        password:
     jpa:
         database-platform: org.hibernate.dialect.MySQL8Dialect
         hibernate:
@@ -19,8 +19,8 @@ spring:
 mailServer:
     host: smtp.gmail.com
     port: 587
-    email: oai.nguyen@xtel.vn
-    password: vxqjieduycxwgvus
+    email: hadzvodich@gmail.com
+    password: zbnzwdnarohkhoyf
     protocol: smtp
     isSSL: false
 

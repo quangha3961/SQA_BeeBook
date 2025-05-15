@@ -122,4 +122,8 @@ public class User extends BaseEntity implements UserDetails{
 	public void setSaleOrders(Set<Saleorder> saleOrders) {
 		this.saleOrders = saleOrders;
 	}
+
+	public String getEmail() {
+		return email;
+	}
 }
