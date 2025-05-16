@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>SubcribeService.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">com.devpro.shop16 Maven Webapp</a> &gt; <a href="index.source.html" class="el_package">beebooks.service</a> &gt; <span class="el_source">SubcribeService.java</span></div><h1>SubcribeService.java</h1><pre class="source lang-java linenums">package beebooks.service;
+
+import beebooks.entities.Subcribe;
+import beebooks.dto.SubcribeSearchModel;
+import org.springframework.stereotype.Service;
+import org.springframework.util.StringUtils;
+
+import javax.mail.*;
+import javax.mail.internet.*;
+import javax.transaction.Transactional;
+import java.io.IOException;
+import java.util.Date;
+import java.util.Properties;
+
+@Service
+<span class="fc" id="L16">public class SubcribeService extends BaseService&lt;Subcribe&gt; {</span>
+
+	@Override
+	protected Class&lt;Subcribe&gt; clazz() {
+		// TODO Auto-generated method stub
+<span class="fc" id="L21">		return Subcribe.class;</span>
+	}
+
+	public PagerData&lt;Subcribe&gt; search(SubcribeSearchModel searchModel) {
+<span class="fc" id="L25">		String sql = &quot;SELECT * FROM tbl_subcribe p WHERE 1=1&quot;;</span>
+
+<span class="fc bfc" id="L27" title="All 2 branches covered.">		if (searchModel != null) {</span>
+<span class="fc bfc" id="L28" title="All 2 branches covered.">			if (!StringUtils.isEmpty(searchModel.keyword)) {</span>
+<span class="fc" id="L29">				sql += &quot; and (p.email like '%&quot; + searchModel.keyword + &quot;%')&quot;;</span>
+			}
+		}
+<span class="fc bfc" id="L32" title="All 2 branches covered.">		return executeByNativeSQL(sql, searchModel == null ? 0 : searchModel.getPage());</span>
+	}
+
+//	@Transactional
+//	public void delete(Subcribe subscribe) {
+//		delete(subscribe);
+//	}
+//
+//	private void sendmail() throws AddressException, MessagingException, IOException {
+//		Properties props = new Properties();
+//		props.put(&quot;mail.smtp.auth&quot;, &quot;true&quot;);
+//		props.put(&quot;mail.smtp.starttls.enable&quot;, &quot;true&quot;);
+//		props.put(&quot;mail.smtp.host&quot;, &quot;smtp.gmail.com&quot;);
+//		props.put(&quot;mail.smtp.port&quot;, &quot;587&quot;);
+//
+//		Session session = Session.getInstance(props, new javax.mail.Authenticator() {
+//			protected PasswordAuthentication getPasswordAuthentication() {
+//				return new PasswordAuthentication(&quot;tutorialspoint@gmail.com&quot;, &quot;&lt;your password&gt;&quot;);
+//			}
+//		});
+//		Subcribe subcribe = new Subcribe();
+//		Message msg = new MimeMessage(session);
+//		msg.setFrom(new InternetAddress(subcribe.getEmail(), false));
+//
+//		msg.setRecipients(Message.RecipientType.TO, InternetAddress.parse(subcribe.getEmail()));
+//		msg.setSubject(&quot;Subject: Đăng ký thành công&quot;);
+//		msg.setContent(&quot;Chào bạn &quot; + subcribe.getEmail() + &quot;,&lt;br/&gt;Cảm ơn bạn đã đăng ký!&quot;, &quot;text/html&quot;);
+//		msg.setSentDate(new Date());
+//
+//		MimeBodyPart messageBodyPart = new MimeBodyPart();
+//		messageBodyPart.setContent(&quot;Tutorials point email&quot;, &quot;text/html&quot;);
+//
+//		Multipart multipart = new MimeMultipart();
+//		multipart.addBodyPart(messageBodyPart);
+//		MimeBodyPart attachPart = new MimeBodyPart();
+//
+//		attachPart.attachFile(&quot;/var/tmp/image19.png&quot;);
+//		multipart.addBodyPart(attachPart);
+//		msg.setContent(multipart);
+//		Transport.send(msg);
+//	}
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.7.202105040129</span></div></body></html>
