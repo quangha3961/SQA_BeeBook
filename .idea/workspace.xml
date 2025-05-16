@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a9ddc94b-8b93-4b5a-ae2a-95a8383420ca" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/AuthorService/AuthorServiceDeleteTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/beebooks/controller/khachhang/CartController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/beebooks/controller/khachhang/CartController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/beebooks/dto/BaseSearchModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/beebooks/dto/BaseSearchModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/beebooks/entities/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/beebooks/entities/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/beebooks/service/PagerData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/beebooks/service/PagerData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/hieu/testcases/MathUtilTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/hieu/testcases/ProjectTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/beebooks/conf/SecureConf.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/beebooks/conf/SecureConf.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/beebooks/controller/khachhang/CheckOrderController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/beebooks/controller/khachhang/CheckOrderController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/beebooks/controller/khachhang/CollectionController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/beebooks/controller/khachhang/CollectionController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/beebooks/controller/quantrivien/AddProductController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/beebooks/controller/quantrivien/AddProductController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/beebooks/controller/quantrivien/AdminContactController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/beebooks/controller/quantrivien/AdminContactController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/beebooks/controller/quantrivien/AdminOrderController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/beebooks/controller/quantrivien/AdminOrderController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/beebooks/controller/quantrivien/AdminSubcribeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/beebooks/controller/quantrivien/AdminSubcribeController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/beebooks/controller/quantrivien/AdminUserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/beebooks/controller/quantrivien/AdminUserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/beebooks/controller/quantrivien/AuthorController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/beebooks/controller/quantrivien/AuthorController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/beebooks/controller/quantrivien/BlogController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/beebooks/controller/quantrivien/BlogController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/beebooks/controller/quantrivien/CategoryBlogController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/beebooks/controller/quantrivien/CategoryBlogController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/beebooks/controller/quantrivien/CategoryProductController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/beebooks/controller/quantrivien/CategoryProductController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/beebooks/controller/quantrivien/ManufacturerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/beebooks/controller/quantrivien/ManufacturerController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/beebooks/controller/quantrivien/PromotionController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/beebooks/controller/quantrivien/PromotionController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/beebooks/dto/AddProduct.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/beebooks/dto/AddProduct.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/beebooks/dto/BaseSearchModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/beebooks/dto/BaseSearchModel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/beebooks/dto/BlogSearchModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/beebooks/dto/BlogSearchModel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/beebooks/dto/CartItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/beebooks/dto/CartItem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/beebooks/dto/OrderSearchModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/beebooks/dto/OrderSearchModel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/beebooks/dto/ProductSearchDataModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/beebooks/dto/ProductSearchDataModel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/beebooks/dto/ProductSearchModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/beebooks/dto/ProductSearchModel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/beebooks/dto/RejectDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/beebooks/dto/RejectDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/beebooks/dto/SearchModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/beebooks/dto/SearchModel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/beebooks/dto/UserSearchModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/beebooks/dto/UserSearchModel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/beebooks/entities/Subcribe.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/beebooks/entities/Subcribe.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/beebooks/entities/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/beebooks/entities/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/beebooks/service/AuthorService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/beebooks/service/AuthorService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/beebooks/service/CategoriesService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/beebooks/service/CategoriesService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/beebooks/service/ContactService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/beebooks/service/ContactService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/beebooks/service/ManufacturerService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/beebooks/service/ManufacturerService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/beebooks/service/PagerData.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/beebooks/service/PagerData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/beebooks/service/ProductService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/beebooks/service/ProductService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/beebooks/service/PromotionService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/beebooks/service/PromotionService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/beebooks/service/SaleorderProductsService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/beebooks/service/SaleorderProductsService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/beebooks/service/SaleorderService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/beebooks/service/SaleorderService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/beebooks/service/SubcribeService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/beebooks/service/SubcribeService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/beebooks/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/beebooks/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/beebooks/service/impl/BlogService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/beebooks/service/impl/BlogService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/beebooks/service/impl/CategoriesBlogService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/beebooks/service/impl/CategoriesBlogService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/hieu/testcases/MathUtilTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/hieu/testcases/ProjectTest.class" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2tyhhgrwAxd1t8LMRLjPK24uQ0b" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JUnit.AuthorService in beebooks.executor": "Run",
+    "JUnit.AuthorServiceCreateTest.executor": "Run",
+    "JUnit.AuthorServiceCreateTest.testCreateAuthor_Fail_NameTooShort.executor": "Run",
+    "JUnit.AuthorServiceDeleteTest.executor": "Run",
+    "JUnit.AuthorServiceFindAllTest.executor": "Run",
+    "JUnit.AuthorServiceSearchTest.executor": "Run",
+    "JUnit.AuthorServiceTestCreate.executor": "Run",
+    "JUnit.BlogService in beebooks.executor": "Run",
+    "JUnit.BlogServiceAddTest.executor": "Run",
+    "JUnit.BlogServiceDeleteTest.executor": "Run",
+    "JUnit.BlogServiceSearchTest.executor": "Run",
+    "JUnit.BlogServiceUpdateTest.executor": "Run",
+    "JUnit.CategoriesBlogService in beebooks.executor": "Run",
+    "JUnit.CategoriesBlogServiceCreateTest.executor": "Run",
+    "JUnit.CategoriesBlogServiceDeleteTest.executor": "Run",
+    "JUnit.CategoriesBlogServiceFindAllTest.executor": "Run",
+    "JUnit.CategoriesBlogServiceSearchTest.executor": "Run",
+    "JUnit.CategoriesBlogServiceUpdateTest.executor": "Run",
+    "JUnit.CategoriesService in beebooks.executor": "Run",
+    "JUnit.CategoriesServiceUpdateTest.executor": "Run",
+    "JUnit.ContactService in beebooks.executor": "Run",
+    "JUnit.ManufacturerService in beebooks.executor": "Run",
+    "JUnit.ProductService in beebooks.executor": "Run",
+    "JUnit.ProductServiceDeleteTest.testRemoveProduct_NonExistentId.executor": "Run",
+    "JUnit.ProductServiceUpdateTest.executor": "Run",
+    "JUnit.ProductServiceUpdateTest.testUpdateProduct_Success_WithNewAvatarAndPictures.executor": "Run",
+    "JUnit.PromotionService in beebooks.executor": "Run",
+    "JUnit.RoleService in beebooks.executor": "Run",
+    "JUnit.RoleServiceLoadRoleByRoleNameTest.testLoadRoleByRoleName_Admin_Success.executor": "Run",
+    "JUnit.RoleServiceLoadRoleByRoleNameTest.testLoadRoleByRoleName_Guest_Success.executor": "Run",
+    "JUnit.SaleorderProductsService in beebooks.executor": "Run",
+    "JUnit.SaleorderProductsServiceGetByIdTest.executor": "Run",
+    "JUnit.SaleorderProductsServiceGetByIdTest.testGetByIdWithExistingSaleorderId.executor": "Run",
+    "JUnit.SaleorderProductsServiceGetByIdTest.testGetByIdWithNullSearchModel.executor": "Run",
+    "JUnit.SaleorderProductsServiceSearchTest.testSearchWithExistingSaleorderId.executor": "Run",
+    "JUnit.SaleorderService in beebooks.executor": "Run",
+    "JUnit.SubcribeService in beebooks.executor": "Run",
+    "JUnit.SubcribeServiceDeleteTest.testDeleteSubcribe_NonExistentId.executor": "Run",
+    "JUnit.SubcribeServiceDeleteTest.testDeleteSubcribe_Success.executor": "Run",
+    "JUnit.UserService in beebooks.executor": "Run",
+    "JUnit.UserServiceCreateTest.executor": "Run",
+    "JUnit.UserServiceSearchTest.testSearchWithNullSearchModel.executor": "Run",
+    "JUnit.example in beebooks.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/2025_ptit/BeeBooks - Copy",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="JUnit.example in beebooks">
+    <configuration name="AuthorServiceCreateTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="beebooks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.AuthorService.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.AuthorService" />
+      <option name="MAIN_CLASS_NAME" value="com.example.AuthorService.AuthorServiceCreateTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AuthorServiceCreateTest.testCreateAuthor_Fail_NameTooShort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="beebooks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.AuthorService.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.AuthorService" />
+      <option name="MAIN_CLASS_NAME" value="com.example.AuthorService.AuthorServiceCreateTest" />
+      <option name="METHOD_NAME" value="testCreateAuthor_Fail_NameTooShort" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserService in beebooks" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="beebooks" />
+      <option name="TEST_OBJECT" value="directory" />
+      <dir value="$PROJECT_DIR$/src/test/java/com/example/UserService" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceCreateTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="beebooks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.UserService.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.UserService" />
+      <option name="MAIN_CLASS_NAME" value="com.example.UserService.UserServiceCreateTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="example in beebooks" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="beebooks" />
+      <option name="TEST_OBJECT" value="directory" />
+      <dir value="$PROJECT_DIR$/src/test/java/com/example" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StartServer" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="beebooks" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="beebooks.StartServer" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.example in beebooks" />
+        <item itemvalue="JUnit.AuthorServiceCreateTest" />
+        <item itemvalue="JUnit.AuthorServiceCreateTest.testCreateAuthor_Fail_NameTooShort" />
+        <item itemvalue="JUnit.UserServiceCreateTest" />
+        <item itemvalue="JUnit.UserService in beebooks" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a9ddc94b-8b93-4b5a-ae2a-95a8383420ca" name="Changes" comment="" />
+      <created>1741330344926</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1741330344926</updated>
+      <workItem from="1741330344931" duration="241000" />
+      <workItem from="1741330673665" duration="70000" />
+      <workItem from="1741941214004" duration="4130000" />
+      <workItem from="1742463749466" duration="934000" />
+      <workItem from="1742474637440" duration="9561000" />
+      <workItem from="1743055240290" duration="6120000" />
+      <workItem from="1743062821180" duration="4731000" />
+      <workItem from="1743067624061" duration="2817000" />
+      <workItem from="1743078782467" duration="9028000" />
+      <workItem from="1743150891379" duration="680000" />
+      <workItem from="1743155669666" duration="113000" />
+      <workItem from="1744179419003" duration="17000" />
+      <workItem from="1744179459967" duration="496000" />
+      <workItem from="1744216225109" duration="11000" />
+      <workItem from="1744364019921" duration="6000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
